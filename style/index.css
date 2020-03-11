@@ -1,11 +1,14 @@
 body {
     width: 100%;
     height: 100vh;
+    margin: 0px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 146px;
 }
 
 .grid-container {
-    width: 100%;
-    height: 100vh;
     display: grid;
     grid-gap: 24px;
     padding: 24px;
@@ -69,12 +72,10 @@ body {
 }
 
 .rectangle {
-    width: 100%;
-    height: 146px;
     background: #9BC1BC;
     display: flex;
     justify-content: flex-start;
-    Align-items: center;
+    align-items: center;
 }
 
 h1 {
@@ -84,6 +85,4 @@ h1 {
     font-size: 64px;
     line-height: 1.2;
     color: #000000;
-    margin-left: 24px;
-
 }
